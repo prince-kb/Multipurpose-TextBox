@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/multipurpose-textbox/static/css/main.073c9b0a.css",
+    "main.js": "/multipurpose-textbox/static/js/main.427fc260.js",
+    "static/js/787.32d91862.chunk.js": "/multipurpose-textbox/static/js/787.32d91862.chunk.js",
+    "index.html": "/multipurpose-textbox/index.html",
+    "main.073c9b0a.css.map": "/multipurpose-textbox/static/css/main.073c9b0a.css.map",
+    "main.427fc260.js.map": "/multipurpose-textbox/static/js/main.427fc260.js.map",
+    "787.32d91862.chunk.js.map": "/multipurpose-textbox/static/js/787.32d91862.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.427fc260.js"
+  ]
+}
