@@ -1,3 +1,3 @@
 
 Multipurpose Textbox App
-[Open Textbox app](https://prince-kb.github.io/Basics/)
+[Open Textbox app](https://prince-kb.github.io/multipurpose-textbox)
