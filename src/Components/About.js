@@ -4,7 +4,7 @@ export default function About(props) {
   return (
     <>
     <div className="container my-4">
-    <img src={logo192} alt="Image unavailable" className='container' style={{ display : 'inline-block', height : '80px', width : '120px'}}/>
+    <img src={logo192} alt="Unavailable" className='container' style={{ display : 'inline-block', height : '80px', width : '120px'}}/>
     <h3 style={{color : (props.mode === 'dark')||(props.mode === 'secondary')||(props.mode === 'success')||(props.mode === 'danger') ? 'white' : 'black',display : 'inline'}} className='my-3' >This is about page</h3>
     </div>    
     <div className='container my-3'>
