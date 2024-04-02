@@ -51,9 +51,9 @@ const showAlert=(msg,type,length)=>{
 }
   return (
     <>
-    <Navbar title="Multipurpose Text Box" home="Home" link="About" contact='Contact Us'toggleMode={toggleMode} mode={mode} />
+    <Navbar title="Textform" home="Home" link="About" contact='Contact Us'toggleMode={toggleMode} mode={mode} />
     <Routes>
-      <Route path='/' element={<TextBox heading="Multipurpose TextBox" toggleMode={toggleMode} mode={mode} showAlert={showAlert} />}></Route>
+      <Route path='/' element={<TextBox heading="Textform" toggleMode={toggleMode} mode={mode} showAlert={showAlert} />}></Route>
       <Route path='/about' element={<About toggleMode={toggleMode} mode={mode}/>}></Route>
       <Route path='/contact' element={<Contact toggleMode={toggleMode} mode={mode}/>}></Route>
     </Routes>

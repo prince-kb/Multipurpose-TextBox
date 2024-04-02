@@ -45,7 +45,7 @@ const copyText=()=>{
   props.showAlert("Text Copied",`${props.mode}`,x.length);
 }
   return (
-    <div className={`container bg-${props.mode} rounded`} style={{minWidth : '100%' , minHeight : 'max-content'}}>
+    <div className={` bg-${props.mode} rounded mx-5`} style={{minWidth : '60%' , minHeight : 'max-content'}}>
     <h1 className='text-center my-2' style={{color : (props.mode === 'dark')||(props.mode === 'secondary')||(props.mode === 'success')||(props.mode === 'danger') ? 'white' : 'black'}}>{props.heading}</h1>
     <div className="mb-3">
     <textarea placeholder="Enter text" className={`form-control my-2`}  style={{backgroundColor : (props.mode === 'dark') ? 'grey' : 'white' , color : props.mode==='dark' ? 'white' : 'black',placeholderTextColor : 'blue'}} id="myBox" rows="8" value={text} onChange={change}/>
